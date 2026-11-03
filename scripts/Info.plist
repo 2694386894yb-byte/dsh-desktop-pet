@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>DeepSeekPet</string>
+	<key>CFBundleDisplayName</key>
+	<string>DeepSeek 桌宠</string>
+	<key>CFBundleExecutable</key>
+	<string>DSHAvatar</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.example.dshavatar</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<!-- 常驻菜单栏形象：不在 Dock 占位，也不要菜单栏标题 -->
+	<key>LSUIElement</key>
+	<true/>
+	<!-- ★ 手工组装 .app 时必须显式写：漏了的话 Retina 屏上按 1x 渲染再被放大，
+	     界面内容大一倍、只露左上角，而窗口几何全部正常，极难定位。 -->
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>DeepSeek 桌宠</string>
+</dict>
+</plist>
